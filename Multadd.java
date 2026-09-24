@@ -11,6 +11,7 @@ public static double expSum(double x) {
 public static void main (String[] args) {
 	System.out.println(multadd(1.0, 2.0, 3.0));
 	System.out.println(multadd(1.0, Math.sin(Math.PI/4), (Math.cos(Math.PI/4))/2));
+	System.out.println(multadd(1.0, Math.log(10.0), Math.log(20.0)));
 	System.out.println(expSum(1));
 }
 
